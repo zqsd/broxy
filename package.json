@@ -1,0 +1,23 @@
+{
+  "name": "broxy",
+  "version": "0.0.1",
+  "description": "binding proxy",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "bind",
+    "ipv6",
+    "ip"
+  ],
+  "author": "Clément Wiz <wiz@haxx.es>",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13"
+  }
+}
