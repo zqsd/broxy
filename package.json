@@ -2,9 +2,9 @@
   "name": "broxy",
   "version": "0.0.1",
   "description": "binding proxy",
-  "main": "lib/main.js",
+  "main": "build/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/main.ts"
   },
   "keywords": [
     "proxy",
@@ -15,9 +15,15 @@
   "author": "Clément Wiz <wiz@haxx.es>",
   "license": "ISC",
   "dependencies": {
+    "basic-auth": "^2.0.1",
+    "ip6addr": "^0.2.3",
+    "ipaddr.js": "^2.0.1",
+    "md5": "^2.3.0",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
+    "@types/basic-auth": "^1.1.3",
+    "@types/md5": "^2.3.1",
     "@types/node": "^16.4.13"
   }
 }
